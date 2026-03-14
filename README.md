@@ -309,6 +309,7 @@ shell:startup
 * 入力欄がアクティブである
 * `Ctrl+A` が全選択として機能する
 * 貼り付けが許可されている
+* 送信時は送信先アプリの入力ボックスにフォーカスが当たっている状態で使用してください
 
 以下のアプリケーションはこの前提を満たさないため **動作しません**。
 
@@ -538,6 +539,7 @@ It requires:
 * The input field to be active
 * `Ctrl+A` to select all
 * Paste to be permitted
+* The target application's input field must have focus when sending
 
 The following applications do not meet these requirements and are **not supported**.
 
